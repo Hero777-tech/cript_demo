@@ -580,7 +580,7 @@ function App() {
                     <Phone className="w-6 h-6 text-gold-500 mr-4 mt-1" />
                     <div>
                       <p className="font-semibold">Call Us</p>
-                      <a href="tel:+1234567890" className="text-gray-600 hover:text-gold-500 transition-colors">
+                      <a href="tel:+9101329707" className="text-gray-600 hover:text-gold-500 transition-colors">
                         +1 (234) 567-890
                       </a>
                     </div>
@@ -685,7 +685,7 @@ function App() {
       
       {/* WhatsApp Button */}
       <a 
-        href="https://wa.me/1234567890" 
+        href="https://wa.me/9101329707" 
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all z-50"
         aria-label="Contact us on WhatsApp"
       >
