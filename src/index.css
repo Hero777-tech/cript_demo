@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold-primary: #FFC300;
+  --gold-secondary: #FFDB66;
+  --dark-primary: #111111;
+  --light-primary: #F8F8F8;
+}
+
+body {
+  @apply font-sans text-premium-dark bg-premium-light;
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #FFC300, #FFDB66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.premium-card {
+  @apply bg-white rounded-lg shadow-premium transition-all duration-300 hover:shadow-premium-hover;
+}
+
+.premium-button {
+  @apply px-6 py-3 rounded-md font-medium transition-all duration-300 transform hover:scale-105;
+}
+
+.gold-button {
+  @apply premium-button bg-gold-500 text-premium-dark hover:bg-gold-600;
+}
+
+.dark-button {
+  @apply premium-button bg-premium-dark text-white hover:bg-black;
+}
+
+.outline-button {
+  @apply premium-button border-2 border-gold-500 text-premium-dark hover:bg-gold-50;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6;
+}
+
+.section-subtitle {
+  @apply text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-12;
+}
+
+.service-card {
+  @apply premium-card p-8 flex flex-col h-full;
+}
+
+.service-icon {
+  @apply w-16 h-16 mb-6 text-gold-500;
+}
+
+.testimonial-card {
+  @apply premium-card p-8;
+}
+
+.portfolio-item {
+  @apply premium-card overflow-hidden;
+}
+
+.portfolio-image {
+  @apply w-full h-64 object-cover transition-all duration-500 hover:scale-105;
+}
+
+.contact-input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gold-500;
+}
+
+.nav-link {
+  @apply text-premium-dark hover:text-gold-500 transition-colors;
+}
+
+.footer-link {
+  @apply text-gray-400 hover:text-gold-500 transition-colors;
+}
