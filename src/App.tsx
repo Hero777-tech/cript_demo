@@ -570,8 +570,8 @@ function App() {
                     <Mail className="w-6 h-6 text-gold-500 mr-4 mt-1" />
                     <div>
                       <p className="font-semibold">Email Us</p>
-                      <a href="mailto:info@criptweb.com" className="text-gray-600 hover:text-gold-500 transition-colors">
-                        info@criptweb.com
+                      <a href="mailto:official.adityanath99@gmail.com" className="text-gray-600 hover:text-gold-500 transition-colors">
+                        official.adityanath99@gmail.com
                       </a>
                     </div>
                   </div>
@@ -581,7 +581,7 @@ function App() {
                     <div>
                       <p className="font-semibold">Call Us</p>
                       <a href="tel:+9101329707" className="text-gray-600 hover:text-gold-500 transition-colors">
-                        +1 (234) 567-890
+                        9101329707
                       </a>
                     </div>
                   </div>
@@ -591,8 +591,7 @@ function App() {
                     <div>
                       <p className="font-semibold">Visit Us</p>
                       <p className="text-gray-600">
-                        123 Premium Plaza, Business District<br />
-                        New York, NY 10001
+                        Silchar, Assam, India
                       </p>
                     </div>
                   </div>
